@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 0 0 15%; /* Each box takes one-third of the container width */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.status-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
